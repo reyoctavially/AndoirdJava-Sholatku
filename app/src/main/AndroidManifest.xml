@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.d3ifcool.sholatku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_polymer"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_polymer"
+        android:supportsRtl="true"
+        android:theme="@style/EditorTheme">
+        <activity android:name=".activity.DetailSuratActivity"
+            android:label="Surat Pendek"
+            android:parentActivityName=".activity.SuratPendekActivity"></activity>
+        <activity android:name=".activity.SuratPendekActivity"
+            android:label="Daftar Surat Pendek"
+            android:parentActivityName=".activity.MainActivity"/>
+        <activity android:name=".activity.TuntunanSholatActivity"
+            android:label="Tuntunan Sholat"
+            android:parentActivityName=".activity.MainActivity"/>
+        <activity
+            android:name=".activity.DashboardDoaSettingActivity"
+            android:label="Doa Harian"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.DashboardDoaActivity"
+            android:label="Doa Harian"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.TasbihActivity"
+            android:label="Tasbih Digital"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.DashboardSholatSettingActivity"
+            android:label="Sholat"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.DashboardSholatActivity"
+            android:label="Sholat"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SholatkuActivity"
+            android:label="Data Sholatku"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="Tentang Pengembang"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.KiblatActivity"
+            android:label="Arah Kiblat"
+            android:parentActivityName=".activity.SholatActivity" />
+        <activity
+            android:name=".activity.DetailDoaActivity"
+            android:label="Doa Harian"
+            android:parentActivityName=".activity.DoaActivity" />
+        <activity
+            android:name=".activity.SholatActivity"
+            android:label="Menu Sholat"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.DoaActivity"
+            android:label="Daftar Doa Harian"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.JadwalkuActivity"
+            android:label="Jadwal Sholat"
+            android:parentActivityName=".activity.SholatActivity" />
+        <activity
+            android:name=".activity.CatatWaktuSholatActivity"
+            android:label="Apakah kamu sudah sholat?" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".database.DataProvider"
+            android:authorities="org.d3ifcool.sholatku" />
+
+        <receiver
+            android:name=".notif.NotificationPublisher"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

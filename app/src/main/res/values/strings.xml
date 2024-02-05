@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Sholatku</string>
+
+    <!-- Jadwal -->
+    <string name="juduljadwal">Jadwal Sholat</string>
+    <string name="shubuh">Sholat Shubuh</string>
+    <string name="dzuhur">Sholat Dzuhur</string>
+    <string name="ashar">Sholat Ashar</string>
+    <string name="maghrib">Sholat Maghrib</string>
+    <string name="isya">Sholat Isya</string>
+
+    <!-- Beranda -->
+    <string name="menusatu">Sholat</string>
+    <string name="menudua">Doa Harian</string>
+    <string name="menutiga">Data Sholatku</string>
+
+    <!-- Menu -->
+    <string name="menuhome">HOME</string>
+    <string name="menuabout">ABOUT</string>
+
+    <!-- Kiblat -->
+    <string name="kiblat">Arah Kiblat</string>
+    <string name="compass_dial" translatable="false">Compass Dial</string>
+    <string name="compass_hands" translatable="false">Compass Hands</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="team">Tim Sholatku</string>
+    <string name="rey">Reynaldi Prama Octavially</string>
+    <string name="lisa">Lisa Mareta</string>
+    <string name="nur">Nur Apriyanto</string>
+
+    <!-- Catat -->
+    <string name="telat">Kamu sudah telat : </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="credit">Icon Made by Ramadhan Mubarak and Muslim pack from www.flaticon.com</string>
+    <string name="adzan">Adzan by Masjid al Haram</string>
+    <string name="menuempat">Tasbih Digital</string>
+    <string name="perintah_tasbih">Sentuh layar untuk mulai menghitung</string>
+    <string name="jml_tasbih">Dari 33</string>
+    <string name="tasbih_selanjutnya">Tasbih selanjutnya : </string>
+    <string name="next_tasbih">Selanjutnya</string>
+    <string name="tv_petunjuk">Silahkan pilih menu di samping kiri</string>
+    <string name="menu5">Surat Pendek</string>
+    <string name="menu6">Tuntunan Sholat</string>
+    <string name="tuntunan_sholat">Tuntunan Sholat</string>
+    <string name="iftitah_n_kabiiraw_walhamdu_lillaahi_n_katsiira_wa_subhaanallaahi_n_bukrataw_wa_ashiila">Iftitah   "Kabiiraw walhamdu \n lillaahi katsiira wa \n subhaanallaahi bukrataw \n wa 'ashiila"</string>
+    <string name="subhaana_robbiyal_n_adziimi_wabihamdih_3x">"Subhaana robbiyal  \n 'adziimi wabihamdih 3X"</string>
+    <string name="allahu_akbar">“Allahu Akbar”</string>
+    <string name="sub_haana_robbiyal_a_la_wabihamdi">Sub haana robbiyal \n a\'la wabihamdi</string>
+    <string name="robbighfirlii_warhamnii_wajburnii_warfa_nii_warzuqnii_wahdinii_wa_aafinii_wa_fu_annii">Robbighfirlii warhamnii \n warfa\'nii warzuqnii wahdinii \n wa\'aafinii wa\'fu \'annii.</string>
+    <string name="attahiyyaatul_mubaarokaatush_sholawaatuth_thoyyibaatu_lillaah_assalaamu_alaika_ayyuhan_nabiyyu_wa_rohmatullahi_wa_barokaatuh_assalaaamu_alainaa_wa_alaa_ibaadillaahish_shoolihiin_asyhadu_allaa_ilaaha_illallah_wa_asyhadu_anna_muhammadar_rosuulullah_allahumma_sholli_alaa_muhammad_allahumma_sholli_alaa_muhammad_wa_alaa_aali_muhammad_kamaa_shollaita_alaa_ibroohim_wa_alaa_aali_ibroohimm_innaka_hamiidum_majiid_alloohumma_baarik_alaa_muhammad_wa_alaa_aali_muhammad_kamaa_baarokta_alaa_ibroohim_wa_alaa_aali_ibroohimm_innaka_hamiidum_majiid">Attahiyyaatul mubaarokaatush \n sholawaatuth thoyyibaatu \n lillaah. Assalaamu \n \'alaika ayyuhan nabiyyu wa \n rohmatullahi wa \n  barokaatuh. Assalaaamu\' \n alainaa wa \'alaa \'ibaadillaahish \n shoolihiin. Asyhadu \n allaa ilaaha illallah wa \n asyhadu anna Muhammadar \n rosuulullah. Allahumma \n sholli \'alaa Muhammad \n Allahumma sholli \'alaa \n Muhammad wa \'alaa \n aali Muhammad kamaa \n shollaita \'alaa Ibroohim \n wa \'alaa aali Ibroohimm \n innaka hamiidum majiid.\n Alloohumma baarik \n \'alaa Muhammad wa \n \'alaa aali Muhammad \n kamaa baarokta \'alaa \n Ibroohim wa \'alaa \n aali Ibroohimm innaka \n hamiidum majiid.</string>
+</resources>
